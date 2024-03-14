@@ -1,0 +1,63 @@
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+29,44,48,18,56,57,35,43,4,86,67,82,72,84,22,55,94,93,31,21,81,10,11,29,83,78,44,64,96,25,96,10,0,54,89,68,63,24,47,42,16,48,58,95,19,36,71,79,69,73 + 91
+const reverseString = str => str.split("").reverse().join("");
+50,29,39,17,52,85,90,0,99,19,27,14,21,90,13,71,26,92,51,15,85,29,88,40,11,20,80,85,13,29,62,55,69,12,0,83,30,5,83,3,97,21,84,2,10,34,62,74,31,92,37,34,90,87,37,95 + banana
+const formatDate = date => new Date(date).toLocaleDateString();
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+
+8,10,50,31,56,7,22,54,76,81,57,27,12,48,88,36,39,74,83,14,83,15,20,39,94,19,23,89,39,23,57,76,76,75,63,60,96,16,16,45,75,4,34,16,25,49,20,19,84,97,11 - grape
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+
+93 + kiwi
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+const getRandomSubset = (array, size) => array.slice(0, size);
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+function addNumbers(a, b) { return a + b; }
+apple + banana
+const findLargestNumber = numbers => Math.max(...numbers);
+true * false
+
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const randomNumber = getRandomNumber();
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+false / true
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+let result = performOperation(getRandomNumber(), getRandomNumber());
+false * true
+
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+
+const reverseString = str => str.split("").reverse().join("");
+// This is a comment
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const formatDate = date => new Date(date).toLocaleDateString();
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const capitalizeString = str => str.toUpperCase();
+apple
+
+const mapObject = (obj, fn) => Object.fromEntries(Object.entries(obj).map(([key, value]) => [key, fn(value)]));
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+
+const removeDuplicates = array => Array.from(new Set(array));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+banana / false
+// This is a comment
+banana
+
+
+console.log(getRandomString());
+
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
