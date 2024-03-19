@@ -1,0 +1,56 @@
+for (let i = 0; i < getRandomNumber(); i++) { console.log(getRandomString()); }
+
+const truncateString = (str, maxLength) => str.length > maxLength ? `${str.slice(0, maxLength)}...` : str;
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+grape
+
+let array = getRandomArray(); array.forEach(item => console.log(item));
+const squareRoot = num => Math.sqrt(num);
+const sum = (a, b) => a + b;
+let array = getRandomArray(); array.forEach(item => console.log(item));
+30,53,76,52,40,69,63,92,94,55,8,22,87,27,93,83,50,45,25,42,7,84,36,69,86,15,78,89,58,18,11,6,55,35,53,52,46,49,92,54,86,29,51,44,1,21,11,11,53,8,35,46,16,81,60,27,13,38,63,33,79,34,38,52,58,91,24,90,51,59,92,63,96,85,37 - 97
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+function addNumbers(a, b) { return a + b; }
+kiwi
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+92,18,10,66,8,38,20,89,66,23,0,78,3,19,17,77,52,74,68,33,41,55,32,54,83,5,1,16,68,73,41,43,79,76,29,97 / 80
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+36,69,71,41,75,68,70,18,44,36,6,58,87,24,13,36,61,21,95,52,14,74,80,61,69,87,11,21,96,24,19,69,41,27,25,0,64,39,57,7,4,53,53 / 40,49,99,47,19,36,70,95,81,62,57,35,99,39,8,30,10,20,92,55,42,34,66,91,73,83,85,45,90,92,5,70,78,65,76,82,8,77,20
+let result = performOperation(getRandomNumber(), getRandomNumber());
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+43 - 36,92,52,6,7,34,72,91,37,52,65,24,15,55,83,82,56,14,73,97,9,80,44,14,9,85,4,42,91,21,17,95,18,65
+console.log(getRandomString());
+const findMissingNumber = array => { const n = array.length + 1; const expectedSum = (n * (n + 1)) / 2; const actualSum = array.reduce((sum, num) => sum + num, 0); return expectedSum - actualSum; };
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+kiwi * true
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+const squareRoot = num => Math.sqrt(num);
+const greet = name => `Hello, ${name}!`;
+
+41 + 79,37,33,6,60,59,37,26,3,15,44,26,44,67,39,25,21,82,46
+
+const getRandomElement = array => array[getRandomIndex(array)];
+
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+banana + false
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+const calculateFactorial = n => n === 0 ? 1 : n * calculateFactorial(n - 1);
+banana
+
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
