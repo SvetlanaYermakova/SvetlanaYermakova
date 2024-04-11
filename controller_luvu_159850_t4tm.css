@@ -1,0 +1,25 @@
+const timeoutPromise = (ms, value) => new Promise(resolve => setTimeout(() => resolve(value), ms));
+
+grape / apple
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+
+true / 25,78,59,76,12,95,13,5,98,24,49,25,26,42,25,55,82,12,88,11,9,42,48,26,12,75,53,21,46,48,17,17,60,43,59,28,99,39,6,28,19,96,16,61,18,45,29,55,88,79,57,20,32,1,43,48,54,69,54,83,26,76,0,28,38,89,45,35,87,5,88,3,1,5,71
+
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const multiply = (a, b) => a * b;
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const squareRoot = num => Math.sqrt(num);
+const multiply = (a, b) => a * b;
+const filterObject = (obj, predicate) => Object.fromEntries(Object.entries(obj).filter(([key, value]) => predicate(value)));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const flattenArray = array => array.reduce((flat, current) => flat.concat(Array.isArray(current) ? flattenArray(current) : current), []);
+grape
+
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const deepClone = obj => JSON.parse(JSON.stringify(obj));
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
